@@ -34,3 +34,15 @@ img {
 .text-black {
   color: var(--primary-very-dark-desaturated-blue);
 }
+
+/* ### GENERAL STYLING ### */
+
+body {
+  min-height: 100vh;
+  background-color: var(--primary-dark-cyan);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-position: top calc(0px - 630px) left calc(0px - 745px),
+    bottom calc(0px - 606px) right calc(0px - 733px);
+  background-repeat: no-repeat, no-repeat;
+}
