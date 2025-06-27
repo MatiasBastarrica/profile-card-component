@@ -130,7 +130,7 @@ footer .stats-category {
 
 /* ### MEDIA QUERIES ### */
 
-@media (min-width: 40em) {
+@media (min-width: 60em) {
   body {
     background: url(./images/bg-pattern-top.svg) top calc(0px - 498px) left
         calc(0px - 298px) no-repeat,
