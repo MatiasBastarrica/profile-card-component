@@ -29,10 +29,15 @@ img {
   display: block;
 }
 
+.card ul {
+  list-style: none;
+}
+
 /* ### UTILITIES ### */
 
 .text-black {
   color: var(--primary-very-dark-desaturated-blue);
+  font-weight: var(--fw-700);
 }
 
 /* ### GENERAL STYLING ### */
@@ -45,4 +50,79 @@ body {
   background-position: top calc(0px - 630px) left calc(0px - 745px),
     bottom calc(0px - 606px) right calc(0px - 733px);
   background-repeat: no-repeat, no-repeat;
+  font-family: var(--ff-kumbh-sans);
+  font-weight: var(--fw-400);
+  color: var(--primary-dark-grayish-blue);
+}
+
+main {
+  min-height: 100vh;
+  padding-inline: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ### CARD ### */
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* ## CARD'S HEADER ## */
+
+.card header .profile-picture {
+  border-radius: 100%;
+  outline: 5px solid white;
+  margin-top: -48px;
+  margin-inline: auto;
+}
+
+/* ## CARD'S PERSONAL INFO SECTION */
+
+.card .personal-info {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h1 {
+  font-size: 1.325rem;
+}
+
+.card .age {
+  font-size: 1.325rem;
+  font-weight: var(--fw-400);
+}
+
+.card .location {
+  margin-top: 0.6rem;
+  font-size: 1.025rem;
+}
+
+/* ## CARD'S FOOTER ## */
+
+footer {
+  margin-top: 1.5rem;
+  border-top: 1px solid hsl(0, 0%, 84%);
+  padding: 1.5rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h2.stats-number {
+  font-size: 1.225rem;
+}
+
+footer .stats-category {
+  margin-top: 0.4rem;
+  font-size: 0.795rem;
 }
