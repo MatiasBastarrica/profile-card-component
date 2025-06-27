@@ -1,0 +1,17 @@
+/* ### CUSTOM VARIABLES ### */
+
+:root {
+  /* primary */
+  --primary-dark-cyan: hsl(185, 75%, 39%);
+  --primary-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --primary-dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* neutral */
+  --neutral-dark-gray: hsl(0, 0%, 59%);
+
+  /* typography */
+  --ff-kumbh-sans: "Kumbh Sans", sans-serif;
+  --fs-name-and-sats: 1rem;
+  --fw-400: 400;
+  --fw-700: 700;
+}
